@@ -1,0 +1,13 @@
+.greenbox {
+    position: relative;
+    background-color: green;
+    height: 500px;
+    width: 500px;
+}
+
+.bluebox {
+    position: absolute;
+    background-color: blue;
+    /*height: 100px;
+    width: 100px;*/
+}

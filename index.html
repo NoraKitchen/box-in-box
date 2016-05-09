@@ -1,0 +1,18 @@
+<html ng-app="boxes-app">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="BoxController as bc">
+    
+    <div class="greenbox" tabindex="0" ng-keypress="bc.keyPressed($event)">
+        <div class="bluebox" style="top: {{bc.blueBox.top}}px; left: {{bc.blueBox.left}}px; height: {{bc.blueBox.size}}; width: {{bc.blueBox.size}}"></div>
+       
+    </div>
+    
+    
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
